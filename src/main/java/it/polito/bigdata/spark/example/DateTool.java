@@ -10,7 +10,7 @@ public class DateTool {
 	public static String DayOfTheWeek(String date) {
 
 		String dayOfTheWeek;
-		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
 		Date d = new Date();
 		Calendar cal = Calendar.getInstance();
 
